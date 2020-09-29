@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
   lowest_temps = []
   
   src.each do |outer|
-    outer.each.sort! do |inner|
+    outer.each do |inner|
       p inner[0]
     end 
   end 
