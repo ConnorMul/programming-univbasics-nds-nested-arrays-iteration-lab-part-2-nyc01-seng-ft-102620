@@ -10,3 +10,5 @@ def find_min_in_nested_arrays(src)
     lowest_score = 100
     while ele_index < src[index].length do 
       if src[index][ele_index] < lowest_score
+        lowest_score = src[index][ele_index]
+      end 
