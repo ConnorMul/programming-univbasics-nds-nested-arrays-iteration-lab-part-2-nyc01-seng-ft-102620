@@ -4,4 +4,6 @@ def find_min_in_nested_arrays(src)
   lowest_temps = []
   
   index = 0 
-  while index < src.length
+  while index < src.length do 
+    ele_index = 0 
+    
