@@ -9,4 +9,4 @@ def find_min_in_nested_arrays(src)
     inner_results = []
     lowest_score = 100
     while ele_index < src[index].length do 
-      if src
+      if src[index][ele_index] < lowest_score
