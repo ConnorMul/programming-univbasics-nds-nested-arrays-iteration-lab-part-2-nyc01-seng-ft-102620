@@ -6,7 +6,8 @@ def find_min_in_nested_arrays(src)
   src.each do |outer|
     src.sort!
     outer.each do |inner|
-      p inner[0]
+      lowest_temps << inner[0]
     end 
   end 
+  lowest_temps
 end 
